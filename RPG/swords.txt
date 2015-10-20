@@ -1,0 +1,12 @@
+Short Sword
+4
+100
+Onion Sword
+8
+400
+Gladius
+12
+800
+Bastard Sword
+16
+1000

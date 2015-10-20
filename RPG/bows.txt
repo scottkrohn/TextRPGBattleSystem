@@ -1,0 +1,12 @@
+Recurve Bow
+6
+100
+Goblin Bow
+12
+400
+Demon's Bow
+17
+800
+The Somberlain
+21
+1000

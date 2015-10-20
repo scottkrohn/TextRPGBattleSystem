@@ -1,0 +1,12 @@
+Willow Staff
+8
+100
+Jeweled Staff
+15
+400
+Staff of Flames
+20
+800
+Belial's Staff
+25
+1000
