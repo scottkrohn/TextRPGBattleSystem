@@ -1,50 +1,16 @@
-﻿Build started 3/14/2012 5:59:14 PM.
-     1>Project "C:\Users\Scott\Desktop\RPG\RPG\RPG.vcxproj" on node 2 (build target(s)).
-     1>InitializeBuildStatus:
-         Creating "Debug\RPG.unsuccessfulbuild" because "AlwaysCreate" was specified.
-       ClCompile:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt battleSystemImplementation.cpp enemyClassImplementation.cpp
-         enemyClassImplementation.cpp
-     1>c:\users\scott\desktop\rpg\rpg\enemyclassimplementation.cpp(28): warning C4244: '=' : conversion from 'double' to 'size_t', possible loss of data
-     1>c:\users\scott\desktop\rpg\rpg\enemyclassimplementation.cpp(123): warning C4244: '=' : conversion from 'double' to 'size_t', possible loss of data
-     1>c:\users\scott\desktop\rpg\rpg\enemyclassimplementation.cpp(128): warning C4244: '=' : conversion from 'double' to 'size_t', possible loss of data
-     1>c:\users\scott\desktop\rpg\rpg\enemyclassimplementation.cpp(181): warning C4244: '+=' : conversion from 'double' to 'size_t', possible loss of data
-     1>c:\users\scott\desktop\rpg\rpg\enemyclassimplementation.cpp(190): warning C4244: 'initializing' : conversion from 'double' to 'size_t', possible loss of data
-     1>c:\users\scott\desktop\rpg\rpg\enemyclassimplementation.cpp(278): warning C4244: '=' : conversion from 'const double' to 'size_t', possible loss of data
-     1>c:\users\scott\desktop\rpg\rpg\enemyclassimplementation.cpp(291): warning C4244: '+=' : conversion from 'const double' to 'size_t', possible loss of data
-     1>c:\users\scott\desktop\rpg\rpg\enemyclassimplementation.cpp(333): warning C4244: '+=' : conversion from 'const double' to 'size_t', possible loss of data
-     1>c:\users\scott\desktop\rpg\rpg\enemyclassimplementation.cpp(334): warning C4244: '+=' : conversion from 'const double' to 'size_t', possible loss of data
-     1>c:\users\scott\desktop\rpg\rpg\enemyclassimplementation.cpp(345): warning C4244: '+=' : conversion from 'const double' to 'size_t', possible loss of data
-     1>c:\users\scott\desktop\rpg\rpg\enemyclassimplementation.cpp(390): warning C4244: '+=' : conversion from 'double' to 'size_t', possible loss of data
-     1>c:\users\scott\desktop\rpg\rpg\enemyclassimplementation.cpp(402): warning C4244: '+=' : conversion from 'const double' to 'size_t', possible loss of data
-     1>c:\users\scott\desktop\rpg\rpg\enemyclassimplementation.cpp(403): warning C4244: '+=' : conversion from 'const double' to 'size_t', possible loss of data
-     1>c:\users\scott\desktop\rpg\rpg\enemyclassimplementation.cpp(441): warning C4244: '+=' : conversion from 'double' to 'size_t', possible loss of data
-     1>c:\users\scott\desktop\rpg\rpg\enemyclassimplementation.cpp(453): warning C4244: '+=' : conversion from 'double' to 'size_t', possible loss of data
-         battleSystemImplementation.cpp
-         Generating Code...
-     1>c:\users\scott\desktop\rpg\rpg\enemyclassimplementation.cpp(91): warning C4715: 'EnemyBase::UseAbility' : not all control paths return a value
-       ManifestResourceCompile:
-         All outputs are up-to-date.
-       Link:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Scott\Desktop\RPG\Debug\RPG.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\RPG.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Scott\Desktop\RPG\Debug\RPG.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Scott\Desktop\RPG\Debug\RPG.lib" /MACHINE:X86 Debug\RPG.exe.embed.manifest.res
-         Debug\battleSystemImplementation.obj
+﻿Build started 10/21/2015 11:55:58 AM.
+     1>Project "C:\Users\skroh\Desktop\TextRPGBattleSystem\RPG\RPG.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 13.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\skroh\Desktop\TextRPGBattleSystem\Debug\RPG.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\skroh\Desktop\TextRPGBattleSystem\Debug\RPG.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\skroh\Desktop\TextRPGBattleSystem\Debug\RPG.lib" /MACHINE:X86 Debug\battleSystemImplementation.obj
          Debug\enemyClassImplementation.obj
          Debug\JobClassImplementation.obj
          Debug\main.obj
          Debug\nonClassFunctions.obj
          Debug\shopImplementation.obj
          Debug\weaponsImplementation.obj
-       Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\RPG.exe.embed.manifest" /manifest Debug\RPG.exe.intermediate.manifest
-         All outputs are up-to-date.
-       LinkEmbedManifest:
-         All outputs are up-to-date.
-         RPG.vcxproj -> C:\Users\Scott\Desktop\RPG\Debug\RPG.exe
-       FinalizeBuildStatus:
-         Deleting file "Debug\RPG.unsuccessfulbuild".
-         Touching "Debug\RPG.lastbuildstate".
-     1>Done Building Project "C:\Users\Scott\Desktop\RPG\RPG\RPG.vcxproj" (build target(s)).
+         RPG.vcxproj -> C:\Users\skroh\Desktop\TextRPGBattleSystem\Debug\RPG.exe
+     1>Done Building Project "C:\Users\skroh\Desktop\TextRPGBattleSystem\RPG\RPG.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.41
+Time Elapsed 00:00:00.22
